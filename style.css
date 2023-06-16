@@ -53,9 +53,14 @@
 /* Home page */
 
 #hero {
-  background-image: url("img/hero4.jpg");
+  background-image: url("img/hero4.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
   background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  justify-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
